@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LinkStatus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>LinkStatus</h1>
+      <p id="progress"></p>
+      <textarea id="urls"></textarea>
+      <p id="urlMsg"></p>
+      <button id="start">Start</button>
+      <a onclick="viewReport()" id="report" class="show">View Report</a>
+    </div>
+    <div id="container-report">
+      <h1>Your Results!</h1>
+      <table id="table-report"></table>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
